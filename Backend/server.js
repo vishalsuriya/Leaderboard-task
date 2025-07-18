@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 app.use(express.json());
 app.use(cors({
-  origin: 'https://leaderboard-task-thfz.vercel.app',
+  origin: 'https://leaderboard-task-phi.vercel.app/',
   credentials: true
 }));
 connectDB();
