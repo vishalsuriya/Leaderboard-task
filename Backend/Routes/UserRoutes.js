@@ -1,8 +1,8 @@
 const express = require('express');
-
+const{getUsers,addUser,claimPoints} = require('../Controller/UserController');
 const router = express.Router();
 
-router.get('/getUser',getUser);
+router.get('/getUsers',getUsers);
 router.post('/addUser',addUser);
 router.post('/claim/:userId',claimPoints);
 
