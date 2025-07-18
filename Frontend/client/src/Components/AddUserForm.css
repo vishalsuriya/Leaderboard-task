@@ -1,0 +1,44 @@
+.add-user-form {
+  margin-bottom: 1.5rem;
+}
+
+.add-user-form input {
+  width: 80%;
+  padding: 0.6rem;
+  margin: 0 auto 1rem auto;
+  display: block;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.add-user-form button {
+  width: 50%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.1);
+}
+
+.add-user-form button:hover {
+  background-color: #218838;
+}
+
+.add-user-form p {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: green;
+  font-weight: 500;
+}
+.heading{
+  text-align: center;
+  color: #222;
+}

@@ -1,0 +1,29 @@
+.claim-button {
+  margin-top: 1.5rem;
+}
+
+.claim-button button {
+  width: 50%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  background-color: #ffc107;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.2s ease;
+}
+
+.claim-button button:hover {
+  background-color: #e0a800;
+}
+
+.claim-result {
+  margin-top: 0.8rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #007bff;
+}
