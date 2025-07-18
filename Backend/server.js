@@ -9,12 +9,13 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 app.use(express.json());
 app.use(cors({
-  origin: 'https://leaderboard-task-phi.vercel.app/',
+  origin: 'https://leaderboard-task-phi.vercel.app',
   credentials: true
 }));
 connectDB();
 app.use('/api/users',userRoutes)
 app.use('/api/history',historyRoutes)
+
 app.listen(PORT,()=>{
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on the port ${PORT}`);
 })
